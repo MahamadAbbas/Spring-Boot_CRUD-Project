@@ -31,7 +31,7 @@ public class ProductController {
 	
 	private ProductService productService;
 	
-	public ProductController(ProductService productService) {
+	public ProductController(ProductService productService) {                //dependency Injection using construtor
 		this.productService = productService;
 	}
     
